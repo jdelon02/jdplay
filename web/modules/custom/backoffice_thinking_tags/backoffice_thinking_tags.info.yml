@@ -1,0 +1,12 @@
+name: Tags
+description: 'Provides Tags taxonomy vocabulary and related configuration. Use tags to group articles on similar topics into categories.'
+type: module
+core: 8.x
+dependencies:
+  - ds
+  - field
+  - metatag
+  - node
+  - taxonomy
+  - text
+package: 'BackOffice Thinking'

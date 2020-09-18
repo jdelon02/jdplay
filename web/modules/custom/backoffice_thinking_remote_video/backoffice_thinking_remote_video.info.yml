@@ -1,0 +1,12 @@
+name: 'Remote video'
+description: 'Provides Remote video media type and related configuration. A remotely hosted video from YouTube or Vimeo.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - field_layout
+  - image
+  - layout_discovery
+  - media
+  - path
+package: 'BackOffice Thinking'

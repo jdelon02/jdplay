@@ -1,0 +1,14 @@
+name: 'Image Grid'
+description: 'Provides Image Grid paragraphs type and related configuration. Responsive grid layout that adjusts at different viewport widths.'
+type: module
+core: 8.x
+dependencies:
+  - ds
+  - field
+  - field_layout
+  - layout_discovery
+  - media_library
+  - paragraphs
+  - paragraphs_library
+  - paragraphs_viewmode
+package: 'BackOffice Thinking'

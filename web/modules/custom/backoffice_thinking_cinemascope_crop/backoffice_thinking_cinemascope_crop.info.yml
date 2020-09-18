@@ -1,0 +1,7 @@
+name: 'Cinemascope Crop'
+description: 'Provides Cinemascope Crop crop type and related configuration. Meant for images that should be cropped and rendered in 21:9 ratio.'
+type: module
+core: 8.x
+dependencies:
+  - crop
+package: 'BackOffice Thinking'

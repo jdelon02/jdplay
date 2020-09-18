@@ -1,0 +1,9 @@
+name: 'Resource Type'
+description: 'Provides Resource Type taxonomy vocabulary and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - taxonomy
+package: 'BackOffice Thinking'

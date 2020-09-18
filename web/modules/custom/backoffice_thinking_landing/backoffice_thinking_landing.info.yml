@@ -1,0 +1,24 @@
+name: Landing
+description: 'Provides Landing content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - button_link
+  - conditional_fields
+  - ds
+  - entity_browser_entity_form
+  - field
+  - field_group
+  - field_layout
+  - inline_entity_form
+  - layout_discovery
+  - link
+  - media_library
+  - menu_ui
+  - metatag
+  - node
+  - path
+  - tour
+  - user
+  - view_mode_selector
+package: 'BackOffice Thinking'

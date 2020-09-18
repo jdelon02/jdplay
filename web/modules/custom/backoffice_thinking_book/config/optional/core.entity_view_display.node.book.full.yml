@@ -1,0 +1,135 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.book.body
+    - node.type.book
+  module:
+    - ds
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top:
+        - book_navigation
+      main:
+        - links
+        - node_links
+        - node_title
+        - body
+        - node_author
+        - node_changed_date
+        - node_link
+        - node_post_date
+        - node_submitted_by
+        - user
+        - 'bundle_field:node'
+    fields:
+      node_author:
+        plugin_id: node_author
+        weight: 5
+        label: hidden
+        formatter: author
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 6
+        label: hidden
+        formatter: ds_post_date_long
+      node_title:
+        plugin_id: node_title
+        weight: 3
+        label: hidden
+        formatter: default
+      node_link:
+        plugin_id: node_link
+        weight: 7
+        label: hidden
+        formatter: default
+      node_links:
+        plugin_id: node_links
+        weight: 2
+        label: hidden
+        formatter: default
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 8
+        label: hidden
+        formatter: ds_post_date_long
+      node_submitted_by:
+        plugin_id: node_submitted_by
+        weight: 9
+        label: hidden
+        formatter: ds_post_date_long
+      user:
+        plugin_id: user
+        weight: 10
+        label: hidden
+        formatter: default
+      'bundle_field:node':
+        plugin_id: 'bundle_field:node'
+        weight: 11
+        label: hidden
+        formatter: default
+      book_navigation:
+        plugin_id: book_navigation
+        weight: 0
+        label: hidden
+        formatter: default
+id: node.book.full
+targetEntityType: node
+bundle: book
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 4
+    region: main
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: main
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

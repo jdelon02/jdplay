@@ -1,0 +1,9 @@
+name: 'Layout Width - Text'
+description: 'Provides Layout Width - Text taxonomy vocabulary and related configuration. Layout width options for text areas'
+type: module
+core: 8.x
+dependencies:
+  - eck
+  - field
+  - taxonomy
+package: 'BackOffice Thinking'

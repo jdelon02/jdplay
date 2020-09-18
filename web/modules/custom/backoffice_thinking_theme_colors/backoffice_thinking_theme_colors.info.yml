@@ -1,0 +1,7 @@
+name: 'Theme Colors'
+description: 'Provides Theme Colors taxonomy vocabulary and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - taxonomy
+package: 'BackOffice Thinking'

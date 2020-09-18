@@ -1,8 +1,0 @@
-name: 'BackOffice Thinking Demo Content'
-type: module
-description: 'Demo Content of Component Element System'
-core: 8.x
-version: 8.x-1.0
-package: 'BackOffice Thinking'
-dependencies:
-  - default_content

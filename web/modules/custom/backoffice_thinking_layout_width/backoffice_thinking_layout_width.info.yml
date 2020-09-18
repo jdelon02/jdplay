@@ -1,0 +1,9 @@
+name: 'Layout Width'
+description: 'Provides Layout Width taxonomy vocabulary and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - eck
+  - field
+  - taxonomy
+package: 'BackOffice Thinking'

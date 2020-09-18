@@ -1,0 +1,15 @@
+name: 'Image or Video'
+description: 'Provides Image or Video paragraphs type and related configuration. Allows for creating media (image and remote video) paragraphs that can be rendered in different ways.'
+type: module
+core: 8.x
+dependencies:
+  - ds
+  - entity_class_formatter
+  - entity_reference_display
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - media_library
+  - paragraphs
+package: 'BackOffice Thinking'

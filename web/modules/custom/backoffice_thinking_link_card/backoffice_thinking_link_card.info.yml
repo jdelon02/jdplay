@@ -10,5 +10,4 @@ dependencies:
   - image
   - inline_entity_form
   - layout_discovery
-version: 8.x-1.0
 package: 'BackOffice Thinking'

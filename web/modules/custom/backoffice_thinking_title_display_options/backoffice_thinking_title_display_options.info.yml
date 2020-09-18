@@ -1,0 +1,7 @@
+name: 'Title Display Options'
+description: 'Provides Title Display Options taxonomy vocabulary and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - taxonomy
+package: 'BackOffice Thinking'

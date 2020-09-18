@@ -1,0 +1,16 @@
+name: Image
+description: 'Provides Image media type and related configuration. Use local images for reusable media.'
+type: module
+core: 8.x
+dependencies:
+  - eck
+  - field
+  - field_layout
+  - file
+  - image
+  - layout_discovery
+  - media
+  - paragraphs
+  - path
+  - responsive_image
+package: 'BackOffice Thinking'

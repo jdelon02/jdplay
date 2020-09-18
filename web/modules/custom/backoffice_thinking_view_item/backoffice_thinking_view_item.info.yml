@@ -11,9 +11,6 @@ dependencies:
   - field_layout
   - layout_discovery
   - link
-  - taxonomy
   - text
-  - views
   - viewsreference
-version: 8.x-1.0
 package: 'BackOffice Thinking'

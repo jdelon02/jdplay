@@ -1,0 +1,13 @@
+name: Document
+description: 'Provides Document media type and related configuration. An uploaded file or document, such as a PDF.'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - field_layout
+  - file
+  - image
+  - layout_discovery
+  - media
+  - path
+package: 'BackOffice Thinking'

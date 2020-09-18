@@ -1,0 +1,14 @@
+name: Text
+description: 'Provides Text components type and related configuration. Headline display is optional, body allows for simple html.'
+type: module
+core: 8.x
+dependencies:
+  - ds
+  - eck
+  - entity_class_formatter
+  - field
+  - field_layout
+  - layout_discovery
+  - metatag
+  - text
+package: 'BackOffice Thinking'

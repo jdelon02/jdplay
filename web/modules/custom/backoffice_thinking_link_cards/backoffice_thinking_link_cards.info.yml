@@ -3,7 +3,6 @@ description: 'Provides Link Cards components type and related configuration. '
 type: module
 core: 8.x
 dependencies:
-  - backoffice_thinking_initial_setup
   - ds
   - eck
   - entity_browser_entity_form
@@ -13,5 +12,4 @@ dependencies:
   - inline_entity_form
   - layout_discovery
   - text
-version: 8.x-1.0
 package: 'BackOffice Thinking'

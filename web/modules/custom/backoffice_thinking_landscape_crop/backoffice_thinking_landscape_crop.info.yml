@@ -1,0 +1,7 @@
+name: 'Landscape Crop'
+description: 'Provides Landscape Crop crop type and related configuration. Meant for images that should be cropped and rendered in 4:3 ratio.'
+type: module
+core: 8.x
+dependencies:
+  - crop
+package: 'BackOffice Thinking'

@@ -1,0 +1,7 @@
+name: Contact
+description: 'Provides Contact webform and related configuration. Basic email contact webform.'
+type: module
+core: 8.x
+dependencies:
+  - contact
+package: 'BackOffice Thinking'
