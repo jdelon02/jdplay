@@ -1,0 +1,15 @@
+name: 'View Block'
+description: 'Provides View Block components type and related configuration. Use for displaying a view block.'
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_initial_setup
+  - ds
+  - eck
+  - entity_class_formatter
+  - field
+  - field_layout
+  - inline_entity_form
+  - layout_discovery
+  - taxonomy
+package: 'BackOffice Thinking'

@@ -1,0 +1,23 @@
+name: Callout
+description: 'Provides Callout components type and related configuration. Callout section with image left, right, or all items centered.'
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_initial_setup
+  - button_link
+  - ds
+  - eck
+  - entity_browser_entity_form
+  - entity_class_formatter
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - taxonomy
+  - text
+  - user
+  - view_mode_selector
+package: 'BackOffice Thinking'

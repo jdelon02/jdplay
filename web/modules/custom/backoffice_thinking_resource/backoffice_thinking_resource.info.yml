@@ -1,0 +1,27 @@
+name: Resource
+description: 'Provides Resource content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_basic_page_and_paragraphs
+  - backoffice_thinking_responsive_image_and_related
+  - captcha
+  - ds
+  - entity_reference_revisions
+  - field
+  - field_layout
+  - file
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - menu_ui
+  - metatag
+  - node
+  - paragraphs
+  - path
+  - smart_trim
+  - taxonomy
+  - text
+  - user
+package: 'BackOffice Thinking'

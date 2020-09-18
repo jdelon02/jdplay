@@ -1,0 +1,21 @@
+name: Site
+description: 'Provides site components.'
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - ckeditor
+  - contact
+  - ctools
+  - editor
+  - field
+  - field_layout
+  - filter
+  - google_tag
+  - layout_discovery
+  - media
+  - rdf
+  - taxonomy
+  - text
+  - token_filter
+package: 'BackOffice Thinking'

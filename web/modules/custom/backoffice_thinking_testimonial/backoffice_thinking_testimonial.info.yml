@@ -1,0 +1,18 @@
+name: Testimonial
+description: 'Provides Testimonial components type and related configuration. This is the testimonial component'
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_initial_setup
+  - ds
+  - eck
+  - entity_browser_entity_form
+  - entity_class_formatter
+  - field
+  - field_layout
+  - inline_entity_form
+  - layout_discovery
+  - slick
+  - slick_entityreference
+  - text
+package: 'BackOffice Thinking'

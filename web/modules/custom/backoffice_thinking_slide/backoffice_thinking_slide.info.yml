@@ -1,0 +1,15 @@
+name: Slide
+description: 'Provides Slide elements type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_basic_page_and_paragraphs
+  - ds
+  - eck
+  - field
+  - field_layout
+  - layout_discovery
+  - media_library
+  - paragraphs
+  - text
+package: 'BackOffice Thinking'

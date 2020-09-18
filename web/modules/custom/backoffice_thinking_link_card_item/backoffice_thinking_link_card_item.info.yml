@@ -1,0 +1,18 @@
+name: 'Link Card Item'
+description: 'Provides Link Card Item elements type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - button_link
+  - ds
+  - eck
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - link
+  - media
+  - media_library
+  - smart_trim
+  - text
+package: 'BackOffice Thinking'

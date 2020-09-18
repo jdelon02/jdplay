@@ -1,0 +1,13 @@
+name: 'Link Card'
+description: 'Provides Link Card elements type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - eck
+  - entity_reference_display
+  - field
+  - field_layout
+  - image
+  - inline_entity_form
+  - layout_discovery
+package: 'BackOffice Thinking'

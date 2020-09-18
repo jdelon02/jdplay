@@ -1,0 +1,32 @@
+name: 'Basic page'
+description: 'Provides Basic page content type and related configuration. Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+type: module
+core: 8.x
+dependencies:
+  - backoffice_thinking_basic_page_and_paragraphs
+  - backoffice_thinking_initial_setup
+  - better_exposed_filters
+  - button_link
+  - captcha
+  - conditional_fields
+  - ds
+  - entity_reference_revisions
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - link
+  - media_library
+  - menu_ui
+  - metatag
+  - node
+  - paragraphs
+  - path
+  - rdf
+  - simple_sitemap
+  - taxonomy
+  - text
+  - user
+  - view_mode_selector
+  - views
+package: 'BackOffice Thinking'

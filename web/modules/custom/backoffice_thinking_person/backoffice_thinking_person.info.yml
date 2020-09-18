@@ -1,0 +1,26 @@
+name: Person
+description: 'Provides Person content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - auto_entitylabel
+  - better_exposed_filters
+  - captcha
+  - ds
+  - field
+  - field_group
+  - field_layout
+  - layout_discovery
+  - media_library
+  - menu_ui
+  - metatag
+  - node
+  - path
+  - pathauto
+  - smart_trim
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_infinite_scroll
+package: 'BackOffice Thinking'
