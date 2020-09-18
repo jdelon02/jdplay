@@ -12,4 +12,5 @@ dependencies:
   - inline_entity_form
   - layout_discovery
   - taxonomy
+version: 8.x-1.0
 package: 'BackOffice Thinking'

@@ -13,4 +13,5 @@ dependencies:
   - inline_entity_form
   - layout_discovery
   - text
+version: 8.x-1.0
 package: 'BackOffice Thinking'

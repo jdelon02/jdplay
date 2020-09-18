@@ -23,4 +23,5 @@ dependencies:
   - user
   - views
   - views_infinite_scroll
+version: 8.x-1.0
 package: 'BackOffice Thinking'

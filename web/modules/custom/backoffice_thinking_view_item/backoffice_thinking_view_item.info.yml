@@ -15,4 +15,5 @@ dependencies:
   - text
   - views
   - viewsreference
+version: 8.x-1.0
 package: 'BackOffice Thinking'

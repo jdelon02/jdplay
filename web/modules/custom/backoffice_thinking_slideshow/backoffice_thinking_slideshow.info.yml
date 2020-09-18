@@ -18,4 +18,5 @@ dependencies:
   - paragraphs_library
   - slick
   - slick_entityreference
+version: 8.x-1.0
 package: 'BackOffice Thinking'

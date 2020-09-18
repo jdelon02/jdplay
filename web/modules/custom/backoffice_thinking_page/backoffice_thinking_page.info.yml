@@ -29,4 +29,5 @@ dependencies:
   - user
   - view_mode_selector
   - views
+version: 8.x-1.0
 package: 'BackOffice Thinking'

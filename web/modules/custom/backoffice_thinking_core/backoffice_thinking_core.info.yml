@@ -30,4 +30,5 @@ dependencies:
   - text
   - tour
   - user
+version: 8.x-1.0
 package: 'BackOffice Thinking'

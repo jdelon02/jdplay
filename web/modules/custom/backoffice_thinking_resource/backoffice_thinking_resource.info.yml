@@ -24,4 +24,5 @@ dependencies:
   - taxonomy
   - text
   - user
+version: 8.x-1.0
 package: 'BackOffice Thinking'

@@ -15,4 +15,5 @@ dependencies:
   - media_library
   - smart_trim
   - text
+version: 8.x-1.0
 package: 'BackOffice Thinking'
