@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a76ef761-5e7d-4a43-b85a-cb99b058751e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: scott-goodwill-y8Ngwq34_Ak-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-07/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 435228
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594926400

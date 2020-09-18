@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: 502a7f54-2046-472b-806f-782b291147f0
+  bundle: slide
+  default_langcode: en
+  depends:
+    07ff0e27-d0b1-4e99-bae5-482263a6ef18: media
+default:
+  title:
+    -
+      value: 'Slide 3'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595859164
+  field_description:
+    -
+      value: "<p>collapsed stinks</p>\r\n"
+      format: basic_html
+  field_imagee:
+    -
+      entity: 07ff0e27-d0b1-4e99-bae5-482263a6ef18

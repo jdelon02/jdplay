@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: components
+  uuid: b482bb3a-0877-46fb-8a6a-c79652cae839
+  bundle: view_block
+  default_langcode: en
+  depends:
+    e6d6db0a-d88b-4123-893d-43747d171d24: taxonomy_term
+    3d926aea-a53f-4ce0-8811-d20550de7cc9: elements
+default:
+  title:
+    -
+      value: 'Recent News'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595350008
+  field_background_colors:
+    -
+      entity: e6d6db0a-d88b-4123-893d-43747d171d24
+  field_view_item:
+    -
+      entity: 3d926aea-a53f-4ce0-8811-d20550de7cc9

@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: 3d926aea-a53f-4ce0-8811-d20550de7cc9
+  bundle: view_item
+  default_langcode: en
+  depends:
+    cb42e7df-d81e-458a-b7fe-71833bb65ed3: taxonomy_term
+default:
+  title:
+    -
+      value: 'Recent News View'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595618729
+  field_call_to_action:
+    -
+      uri: 'internal:/news'
+      title: 'View all'
+      options: {  }
+  field_displayed_view:
+    -
+      target_id: news
+      display_id: block_1
+      argument: ''
+      title: '0'
+      data: ''
+  field_headline_intro:
+    -
+      value: "<h2>Great views. We have news views.</h2>\r\n\r\n<p>Mauris vehicula sapien nisi, ac venenatis magna tempor a. Aliquam a mi felis. Nulla dictum lacinia sem, eu scelerisque lectus mollis id. Nunc et ullamcorper nunc.</p>\r\n"
+      format: basic_html
+  field_layout_width:
+    -
+      entity: cb42e7df-d81e-458a-b7fe-71833bb65ed3

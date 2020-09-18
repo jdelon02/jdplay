@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 07ff0e27-d0b1-4e99-bae5-482263a6ef18
+  bundle: image
+  default_langcode: en
+  depends:
+    03a26dfd-0ef4-424c-91ca-e566233e8f0a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: blake-wisz-TcgASSD5G04-unsplash.jpg
+  created:
+    -
+      value: 1594926358
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 03a26dfd-0ef4-424c-91ca-e566233e8f0a
+      alt: 'blue sky'
+      title: ''
+      width: 1920
+      height: 1281

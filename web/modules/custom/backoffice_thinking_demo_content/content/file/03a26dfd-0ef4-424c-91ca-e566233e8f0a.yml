@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 03a26dfd-0ef4-424c-91ca-e566233e8f0a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: blake-wisz-TcgASSD5G04-unsplash.jpg
+  uri:
+    -
+      value: 'public://2020-07/blake-wisz-TcgASSD5G04-unsplash.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 415071
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1594926358

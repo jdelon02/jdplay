@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: b8322880-2e14-4d23-acdd-b733af20dff0
+  bundle: link_card
+  default_langcode: en
+  depends:
+    2fdd36a0-4614-4f89-841f-b7ad2b85d4de: elements
+default:
+  title:
+    -
+      value: 'Background One'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595862917
+  field_card_layout:
+    -
+      value: card_background_image
+  field_link_card:
+    -
+      entity: 2fdd36a0-4614-4f89-841f-b7ad2b85d4de

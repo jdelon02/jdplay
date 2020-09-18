@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: components
+  uuid: 314712ed-2062-4d02-ba7d-db85a4a07c39
+  bundle: slideshow
+  default_langcode: en
+  depends:
+    9d0df38b-c03e-428b-a06e-3b6db20015fd: taxonomy_term
+    90d526f3-424d-4435-9406-7d2d586f049d: elements
+    502a7f54-2046-472b-806f-782b291147f0: elements
+    4b0b2f36-5d41-4746-8053-7d31ac46083b: elements
+default:
+  title:
+    -
+      value: 'Slideshow Component'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595858933
+  field_layout_width:
+    -
+      entity: 9d0df38b-c03e-428b-a06e-3b6db20015fd
+  field_slidee:
+    -
+      entity: 90d526f3-424d-4435-9406-7d2d586f049d
+    -
+      entity: 502a7f54-2046-472b-806f-782b291147f0
+    -
+      entity: 4b0b2f36-5d41-4746-8053-7d31ac46083b

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 6045e42a-c8b5-4bcf-893b-d8b52ec4a021
+  bundle: image
+  default_langcode: en
+  depends:
+    de624a1e-de5d-4c69-b32e-a82b936c3e67: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: christopher-jolly-147391-unsplash-1920.jpg
+  created:
+    -
+      value: 1593439437
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: de624a1e-de5d-4c69-b32e-a82b936c3e67
+      alt: horizontal
+      title: ''
+      width: 1920
+      height: 1280

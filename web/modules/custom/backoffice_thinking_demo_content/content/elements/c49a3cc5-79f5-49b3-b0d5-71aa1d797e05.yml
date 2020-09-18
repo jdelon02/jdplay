@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: c49a3cc5-79f5-49b3-b0d5-71aa1d797e05
+  bundle: link_card
+  default_langcode: en
+  depends:
+    b2e66c5e-e9c3-4f4f-9be5-32532cf0c87a: elements
+default:
+  title:
+    -
+      value: 'Stacked Item 2'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1596575848
+  field_card_layout:
+    -
+      value: card_stacked
+  field_link_card:
+    -
+      entity: b2e66c5e-e9c3-4f4f-9be5-32532cf0c87a

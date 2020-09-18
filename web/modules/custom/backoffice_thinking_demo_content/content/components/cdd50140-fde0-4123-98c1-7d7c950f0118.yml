@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: components
+  uuid: cdd50140-fde0-4123-98c1-7d7c950f0118
+  bundle: simple_title_and_body
+  default_langcode: en
+  depends:
+    feb12a9d-427b-45f4-ae7b-728371895cf6: taxonomy_term
+default:
+  title:
+    -
+      value: 'Intro Text'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595349956
+  field_body:
+    -
+      value: "<h2 class=\"text-align-center\">WIDE Credo in Deum Patrem omnipotentem</h2>\r\n\r\n<p>Creatorem caeli et terrae. Et in Iesum Christum, Filium eius unicum, Dominum nostrum, qui conceptus est de Spiritu Sancto, natus ex Maria Virgine, passus sub Pontio Pilato, crucifixus, mortuus, et sepultus, descendit ad infernos, tertia die resurrexit a mortuis, ascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis, inde venturus est iudicare vivos et mortuos. Credo in Spiritum Sanctum, sanctam Ecclesiam catholicam, sanctorum communionem, remissionem peccatorum, carnis resurrectionem, vitam aeternam.</p>\r\n\r\n<p>Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Ave maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc, et in hora mortis nostrae. Amen.</p>\r\n"
+      format: basic_html
+  field_layout_width_text:
+    -
+      entity: feb12a9d-427b-45f4-ae7b-728371895cf6

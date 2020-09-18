@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f012d5c9-3e0e-4a6b-a240-b024899daaf8
+  bundle: page
+  default_langcode: en
+  depends:
+    312c4a04-7358-4574-b051-3dd571e23098: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '404 Oops, something''s gone wrong'
+  created:
+    -
+      value: 1597256646
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  ds_switch:
+    -
+      value: view_mode_selector
+  path:
+    -
+      alias: /error-404
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p class=\"text-align-center\">We're sorry, that page does not exist.</p>\r\n\r\n<p class=\"text-align-center\">Try using the menu above or <a href=\"/search\">search this website</a>.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_page_options:
+    -
+      value: banner_title
+  field_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c73f8894-a42d-4b1e-bee7-96001a21e4bd
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1597869184
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+  field_title_banner_button:
+    -
+      uri: 'internal:/search'
+      title: 'Start a new search'
+      options: {  }
+  field_title_banner_headline:
+    -
+      value: 'Oops, something''s gone wrong'
+  field_title_banner_media:
+    -
+      entity: 312c4a04-7358-4574-b051-3dd571e23098

@@ -1,0 +1,25 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: 4b0b2f36-5d41-4746-8053-7d31ac46083b
+  bundle: slide
+  default_langcode: en
+  depends:
+    0e5b6d9a-67c9-4f0b-9f59-6d0d9c1be057: media
+default:
+  title:
+    -
+      value: 'Slide 2'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595858928
+  field_description:
+    -
+      value: "<p>I'm text</p>\r\n"
+      format: basic_html
+  field_imagee:
+    -
+      entity: 0e5b6d9a-67c9-4f0b-9f59-6d0d9c1be057

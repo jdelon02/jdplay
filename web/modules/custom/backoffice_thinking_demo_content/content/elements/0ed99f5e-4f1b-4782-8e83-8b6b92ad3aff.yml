@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: elements
+  uuid: 0ed99f5e-4f1b-4782-8e83-8b6b92ad3aff
+  bundle: testimonial
+  default_langcode: en
+default:
+  title:
+    -
+      value: 'Testimonial 1'
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595865829
+  field_description:
+    -
+      value: "<p>Cat gets stuck in tree firefighters try to get cat down firefighters get stuck in tree cat eats firefighters' slippers&nbsp;hide when guests come over, for&nbsp;have a lot of grump in yourself because you can't forget to be grumpy and not be like king grumpy cat&nbsp;chew master's slippers&nbsp;run up and down stairs&nbsp;and&nbsp;annoy owner until he gives you food</p>\r\n"
+      format: basic_html
+  field_testimonial_author:
+    -
+      value: "<p><strong>Coco</strong>, The Cat</p>\r\n"
+      format: basic_html

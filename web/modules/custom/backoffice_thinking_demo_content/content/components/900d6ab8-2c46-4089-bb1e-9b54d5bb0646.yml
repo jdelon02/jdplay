@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: components
+  uuid: 900d6ab8-2c46-4089-bb1e-9b54d5bb0646
+  bundle: testimonial
+  default_langcode: en
+  depends:
+    cb42e7df-d81e-458a-b7fe-71833bb65ed3: taxonomy_term
+    0ed99f5e-4f1b-4782-8e83-8b6b92ad3aff: elements
+    ea75eefd-27d0-41bf-8a4f-961768c54dd3: elements
+default:
+  title:
+    -
+      value: Testimonials
+  uid:
+    -
+      target_id: 1
+  created:
+    -
+      value: 1595865866
+  field_headline:
+    -
+      value: "<h2 class=\"text-align-center\">Testimonials Headline H2</h2>\r\n"
+      format: basic_html
+  field_layout_width:
+    -
+      entity: cb42e7df-d81e-458a-b7fe-71833bb65ed3
+  field_testimonial:
+    -
+      entity: 0ed99f5e-4f1b-4782-8e83-8b6b92ad3aff
+    -
+      entity: ea75eefd-27d0-41bf-8a4f-961768c54dd3

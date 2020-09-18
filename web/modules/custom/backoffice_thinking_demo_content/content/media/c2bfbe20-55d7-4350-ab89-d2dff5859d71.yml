@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c2bfbe20-55d7-4350-ab89-d2dff5859d71
+  bundle: image
+  default_langcode: en
+  depends:
+    1c842a59-d276-4d7a-b7ae-ea44381e83de: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: grid-3.jpg
+  created:
+    -
+      value: 1594648345
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 1c842a59-d276-4d7a-b7ae-ea44381e83de
+      alt: grid-3
+      title: ''
+      width: 1500
+      height: 1000
